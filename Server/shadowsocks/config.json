@@ -1,0 +1,10 @@
+{
+    "server":"0.0.0.0",
+    "server_ipv6": "[::]",
+    "server_port":8889,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"123456",
+    "timeout":300,
+    "method":"rc4-md5"
+}
