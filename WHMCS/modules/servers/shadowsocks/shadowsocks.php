@@ -333,6 +333,9 @@ function shadowsocks_ClientArea($params){
   }else{
     $traffic = $params['configoption2'];
   }
+  if($params['configoption3'] == "GB"){
+    $traffic = $traffic * 1024;
+  }
   $traffic_upload = $query_data['upload'] / 1024;
   $traffic_upload = round($traffic_upload, 2);
   $traffic_download = $query_data['download'] / 1024;
@@ -366,7 +369,7 @@ function shadowsocks_ClientArea($params){
     $ipaddr = $node[$x];$x++;
     $cname = $node[$x];$x++;
     $method = $node[$x];$x++;
-    $ssqrcode = base64_encode($method.':'.$password.':'.$ipaddr.':'.$query_data['port']);
+    $ssqrcode = base64_encode($method.':'.$password.'@'.$ipaddr.':'.$query_data['port']);
     $node_list .= "<tr>
       <td style=\"padding:10px 15px;border-right:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9\">
         {$name}

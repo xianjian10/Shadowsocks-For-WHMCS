@@ -1,7 +1,13 @@
-# Shadowsocks-For-WHMCS
+# Shadowsocks For WHMCS
 
-这是提供给 WHMCS 的影梭自动开通 & 管理接口。
+This module is available automatically sales & management [Shadowsocks Manyuser](https://github.com/mengskysama/shadowsocks/tree/manyuser) in the WHMCS.
 
-#使用方法
+## Quick start
 
-详情请参阅：https://www.zntec.cn/archives/whmcs-ss-module.html
+: ) In fact, it is not "Quick" ... 
+
+You can read the [Installation documentation](https://www.zntec.cn/archives/whmcs-ss-module.html) for information on this module contents, and more.
+
+## Copyright and license
+
+Copyright 2016 ZNTEC.CN. Code released under [the MIT license](https://github.com/babytomas/Shadowsocks-For-WHMCS/blob/master/LICENSE).
